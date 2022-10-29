@@ -16,12 +16,12 @@ export const AVATAR: ImageStyle = {
   height: 55,
 };
 export const INFO_WRAPPER: ViewStyle = {
+  flex: 1,
   marginLeft: 10,
   justifyContent: 'center',
 };
 export const NAME_WRAPPER: ViewStyle = {
   flexDirection: 'row',
-  justifyContent: 'space-between',
   alignItems: 'center',
 };
 export const USER_NAME: TextStyle = {
