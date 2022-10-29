@@ -49,7 +49,6 @@ export class Api {
    * Search users by username.
    */
   async searchUsers(searchKey: string): Promise<Types.GetUsersResult> {
-    console.log('searchUsers / searchKey:', searchKey);
     // make the api call
     const response: ApiResponse<any> = await this.apisauce.get(
       '/search/users',
